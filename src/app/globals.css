@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+/* Custom scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+*::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #171717; /* Dark background for the track */
+  border-radius: 10px; /* Rounded track */
+  border: 2px solid #2e2e2e; /* Border around the track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #38c9ea,
+    #2cbec8
+  ); /* Neon gradient thumb */
+  border-radius: 10px; /* Rounded thumb */
+  border: 2px solid #2e2e2e; /* Border around the thumb */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #5cddf5,
+    #45c9d9
+  ); /* Bright neon on hover */
+}
+
+/* Scrollbar styling for Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #38c9ea #171717; /* Thumb and track color */
+}
+
+/* Specific style for Firefox thumb and track */
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #38c9ea, #2cbec8);
+}
+
+*::-moz-scrollbar-track {
+  background: #171717;
+}
+
+.frame-container {
+  position: relative; /* Make the container relative to position the overlay */
+  background-image: url('../assets/bannerbg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.hanging-container {
+  position: relative; /* Make the container relative to position the overlay */
+  background-image: url('../assets/wheel_board.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wheelbg {
+  position: relative; /* Make the container relative to position the overlay */
+  background-image: url('../../public/wheeler.png');
+  background-size: cover;
+  background-position: start;
+  background-repeat: no-repeat;
+}
+
+/* Add a black overlay with opacity */
+.frame-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  z-index: 1; /* Ensure the overlay is on top of the background but below the content */
+}
+
+.inp-bg {
+  background: radial-gradient(50% 50% at 50% 50%, #5c1190 0%, #1e002c 100%);
+}
+
+/* Ensure content is above the overlay */
+.frame-container > * {
+  position: relative;
+  z-index: 2;
+}

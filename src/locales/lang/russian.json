@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "Быстрые ссылки",
+        "links": {
+          "allSports": "Все виды спорта",
+          "liveSports": "Прямые трансляции спорта",
+          "allCasino": "Все казино",
+          "liveCasino": "Прямые трансляции казино",
+          "games": "Игры"
+        }
+      },
+      "usefulLinks": {
+        "title": "Полезные ссылки",
+        "links": {
+          "termsOfService": "Условия обслуживания",
+          "antiMoneyLaundering": "Борьба с отмыванием денег",
+          "kycPolicies": "Политики KYC",
+          "privacyManagement": "Конфиденциальность и управление",
+          "accountsPayoutsBonus": "Аккаунты, выплаты и бонусы"
+        }
+      },
+      "companyInfo": {
+        "title": "Информация о компании",
+        "links": {
+          "launchingYear": "Год запуска: 2024",
+          "country": "Страна: ОАЭ",
+          "owner": "Владелец: -",
+          "license": "Лицензия: LI8592024",
+          "licenseYear": "Год лицензии: 2024"
+        }
+      }
+    }
+  }
+}

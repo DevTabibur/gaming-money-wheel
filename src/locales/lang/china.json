@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "快速链接",
+        "links": {
+          "allSports": "所有运动",
+          "liveSports": "现场运动",
+          "allCasino": "所有赌场",
+          "liveCasino": "现场赌场",
+          "games": "游戏"
+        }
+      },
+      "usefulLinks": {
+        "title": "实用链接",
+        "links": {
+          "termsOfService": "服务条款",
+          "antiMoneyLaundering": "反洗钱",
+          "kycPolicies": "KYC 政策",
+          "privacyManagement": "隐私与管理",
+          "accountsPayoutsBonus": "账户、付款和奖金"
+        }
+      },
+      "companyInfo": {
+        "title": "公司信息",
+        "links": {
+          "launchingYear": "推出年份：2024",
+          "country": "国家：阿联酋",
+          "owner": "所有者：-",
+          "license": "许可证：LI8592024",
+          "licenseYear": "许可证年份：2024"
+        }
+      }
+    }
+  }
+}

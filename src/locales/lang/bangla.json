@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "দ্রুত লিঙ্ক",
+        "links": {
+          "allSports": "সব খেলা",
+          "liveSports": "লাইভ খেলা",
+          "allCasino": "সব ক্যাসিনো",
+          "liveCasino": "লাইভ ক্যাসিনো",
+          "games": "গেমস"
+        }
+      },
+      "usefulLinks": {
+        "title": "উপকারী লিঙ্ক",
+        "links": {
+          "termsOfService": "পরিষেবার শর্তাবলী",
+          "antiMoneyLaundering": "অ্যান্টি-মানি লন্ডারিং",
+          "kycPolicies": "KYC নীতিমালা",
+          "privacyManagement": "গোপনীয়তা এবং পরিচালনা",
+          "accountsPayoutsBonus": "অ্যাকাউন্টস, পেআউট এবং বোনাস"
+        }
+      },
+      "companyInfo": {
+        "title": "কোম্পানির তথ্য",
+        "links": {
+          "launchingYear": "লঞ্চের বছর: ২০২৪",
+          "country": "দেশ: UAE",
+          "owner": "মালিক: -",
+          "license": "লাইসেন্স: LI8592024",
+          "licenseYear": "লাইসেন্সের বছর: ২০২৪"
+        }
+      }
+    }
+  }
+}

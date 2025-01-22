@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "त्वरित लिंक",
+        "links": {
+          "allSports": "सभी खेल",
+          "liveSports": "लाइव खेल",
+          "allCasino": "सभी कसीनो",
+          "liveCasino": "लाइव कसीनो",
+          "games": "खेल"
+        }
+      },
+      "usefulLinks": {
+        "title": "उपयोगी लिंक",
+        "links": {
+          "termsOfService": "सेवा की शर्तें",
+          "antiMoneyLaundering": "धन शोधन विरोधी",
+          "kycPolicies": "केवाईसी नीतियां",
+          "privacyManagement": "गोपनीयता और प्रबंधन",
+          "accountsPayoutsBonus": "खाते, भुगतान और बोनस"
+        }
+      },
+      "companyInfo": {
+        "title": "कंपनी की जानकारी",
+        "links": {
+          "launchingYear": "लॉन्चिंग वर्ष: 2024",
+          "country": "देश: UAE",
+          "owner": "स्वामी: -",
+          "license": "लाइसेंस: LI8592024",
+          "licenseYear": "लाइसेंस वर्ष: 2024"
+        }
+      }
+    }
+  }
+}

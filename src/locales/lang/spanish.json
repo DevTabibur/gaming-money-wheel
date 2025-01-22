@@ -1,0 +1,36 @@
+{
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "Enlaces Rápidos",
+        "links": {
+          "allSports": "Todos los Deportes",
+          "liveSports": "Deportes en Vivo",
+          "allCasino": "Todos los Casinos",
+          "liveCasino": "Casino en Vivo",
+          "games": "Juegos"
+        }
+      },
+      "usefulLinks": {
+        "title": "Enlaces Útiles",
+        "links": {
+          "termsOfService": "Términos de Servicio",
+          "antiMoneyLaundering": "Antilavado de Dinero",
+          "kycPolicies": "Políticas de KYC",
+          "privacyManagement": "Privacidad y Gestión",
+          "accountsPayoutsBonus": "Cuentas, Pagos y Bonos"
+        }
+      },
+      "companyInfo": {
+        "title": "Información de la Empresa",
+        "links": {
+          "launchingYear": "Año de Lanzamiento: 2024",
+          "country": "País: UAE",
+          "owner": "Propietario: -",
+          "license": "Licencia: LI8592024",
+          "licenseYear": "Año de Licencia: 2024"
+        }
+      }
+    }
+  }
+}
